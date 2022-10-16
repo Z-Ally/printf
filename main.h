@@ -24,5 +24,8 @@ typedef struct print
 int (*get_func(const char *format))(va_list);
 int _putchar(char c);
 int _printf(const char *format, ...);
+int print_pct(va_list args);
+int print_str(va_list args);
+int print_char(va_list args);
 
 #endif

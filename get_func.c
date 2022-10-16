@@ -15,6 +15,9 @@ int (*get_func(const char *format))(va_list)
 	print_t arr[] = {
 		{"d", print_d},
 		{"i", print_d},
+		{"%", print_pct},
+		{"c", print_char},
+		{"s", print_str},
 		{NULL, NULL}
 	};
 
